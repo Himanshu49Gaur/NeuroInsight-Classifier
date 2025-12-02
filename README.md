@@ -97,3 +97,11 @@
 | Visualization Tools | Matplotlib, Seaborn |
 
 ---  
+
+## 7. **Key Features**
+- Automated classification of Alzheimer MRI scans.
+- High accuracy deep learning model for medical diagnosis.
+- Complete E2E pipeline – preprocessing → model training → evaluation.
+- Multi-class classification support (4 levels of dementia).
+- GPU-accelerated performance and optimization techniques.
+- Visual analytics (graphs, confusion matrix, prediction results).
