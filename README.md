@@ -45,3 +45,8 @@
 - Alzheimer MRI dataset obtained from **OASIS / Kaggle Brain MRI public dataset**.
 - Contains labeled MRI scans categorized by dementia severity for supervised training.
 
+### 🔹 *Step 2 – Data Preprocessing*
+- MRI images resized to **224×224 pixels** for CNN compatibility.
+- Pixel normalization applied to improve training stability.
+- Dataset split into **80% training** and **20% validation** partitions.
+- Data augmentation (random rotation, flipping, shifting) applied to address class imbalance.
