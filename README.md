@@ -18,3 +18,11 @@
 
 ---
 
+## 3. **Objectives**
+- To build a high-performance Alzheimer classification model using deep learning.
+- To classify MRI images into multiple severity categories of dementia.
+- To automate and improve diagnostic reliability compared to manual visual assessment.
+- To deliver a reproducible research-ready workflow for clinical and academic use.
+- To measure performance using scientific evaluation metrics and visual comparison methods.
+
+---
