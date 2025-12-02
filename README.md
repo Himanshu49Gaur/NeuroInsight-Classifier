@@ -40,3 +40,8 @@
 
 ---
 
+## 5. **Methodology**
+### 🔹 *Step 1 – Dataset Acquisition*
+- Alzheimer MRI dataset obtained from **OASIS / Kaggle Brain MRI public dataset**.
+- Contains labeled MRI scans categorized by dementia severity for supervised training.
+
