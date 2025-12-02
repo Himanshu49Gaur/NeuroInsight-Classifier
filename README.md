@@ -75,3 +75,12 @@
 ### 🔹 *Step 6 – Prediction & Testing*
 - Tested on unseen MRI scans to validate generalization strength.
  
+### ✔ What This Methodology Enables
+- Faster and more reliable Alzheimer screening.
+- Reduced manual workload for radiologists.
+- Objective, repeatable, and scalable medical imaging evaluation.
+- Can be extended to **real clinical deployment**, telemedicine, and hospital PACS integration.
+
+  ---
+
+  
