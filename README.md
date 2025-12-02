@@ -115,3 +115,16 @@
 
 ---
 
+## **11. Results**
+
+| **Metric** | **Value** |
+|-----------|-----------|
+| Final Training Accuracy | **98%** |
+| Final Validation Accuracy | **97–98%** |
+| Loss Trend | Decreasing steadily across epochs |
+| Classification Type | Multi-class |
+| Model Used | ResNet-50 |
+| Classes | 4 |
+| Dataset | OASIS MRI Dataset |
+
+---
