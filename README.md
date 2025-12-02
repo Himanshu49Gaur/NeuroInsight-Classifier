@@ -105,3 +105,6 @@
 - Multi-class classification support (4 levels of dementia).
 - GPU-accelerated performance and optimization techniques.
 - Visual analytics (graphs, confusion matrix, prediction results).
+
+---
+
