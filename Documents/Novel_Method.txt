@@ -53,3 +53,13 @@ References:
 •	2504.11270v1: Rank-based Transfer Learning for High-Dimensional Survival Data with Application to Sepsis Data
 •	2505.02889v1: Early Prediction of Sepsis: Feature-Aligned Transfer Learning
 •	s41598-025-95604-8: Constructing an Early Warning Model for Elderly Sepsis Patients Based on Machine Learning
+
+Based on the datasets you've uploaded, the most relevant dataset for the novel transfer learning-based early warning system for sepsis would be the "Prediction of Sepsis" dataset from Kaggle. Here's why:
+Why Choose the "Prediction of Sepsis" Dataset (Kaggle):
+1.	Clinical Data with Multiple Features:
+o	It contains rich clinical data, including vital signs, lab results, and patient demographics, which are key for predicting sepsis.
+2.	Classification Task:
+o	The dataset is suited for classification tasks, making it directly applicable to sepsis prediction (whether a patient will develop sepsis or not).
+3.	Direct Applicability to Early Warning System:
+o	This dataset is designed for sepsis prediction, making it highly relevant for building a sepsis early warning system.
+
