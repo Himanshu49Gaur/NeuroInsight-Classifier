@@ -45,3 +45,11 @@ Advantages of this Method:
 2.	Accurate Prediction: Survival analysis integrated with time-to-event prediction will allow the model to not just predict sepsis, but also estimate when it will occur, providing crucial time for interventions.
 3.	Scalable and Robust: The semi-supervised learning component ensures the model performs well even with limited labeled data from the target hospital.
 4.	Clinically Relevant: The feature selection process prioritizes the most clinically important data, making the model applicable across different clinical environments, especially for elderly patients or resource-limited settings.
+
+References:
+•	Base Paper: "Development and Evaluation of a Transfer-Learning Driven Early Warning System for Sepsis"
+•	1711.04450v1: All-Transfer Learning for Deep Neural Networks and its Application to Sepsis Classification
+•	2106.10352v2: Cross-hospital Sepsis Early Detection via Semi-supervised Optimal Transport with Self-paced Ensemble
+•	2504.11270v1: Rank-based Transfer Learning for High-Dimensional Survival Data with Application to Sepsis Data
+•	2505.02889v1: Early Prediction of Sepsis: Feature-Aligned Transfer Learning
+•	s41598-025-95604-8: Constructing an Early Warning Model for Elderly Sepsis Patients Based on Machine Learning
