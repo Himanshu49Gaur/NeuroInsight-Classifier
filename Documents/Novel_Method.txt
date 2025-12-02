@@ -63,3 +63,10 @@ o	The dataset is suited for classification tasks, making it directly applicable 
 3.	Direct Applicability to Early Warning System:
 o	This dataset is designed for sepsis prediction, making it highly relevant for building a sepsis early warning system.
 
+Why Not the Other Datasets:
+•	Sepsis Fictitious Data (Kaggle):
+o	Limitations: This dataset is synthetic, which may lack real-world complexity and variability, making it less useful for training a robust, real-world applicable model.
+•	Sepsis Minimal EHRs from Norway (Kaggle):
+o	Limitations: It only contains minimal data and may not provide enough comprehensive clinical features for effective training.
+•	Refined MIMIC-III 30-day Mortality Prediction (IEEE DataPort):
+o	While this dataset is excellent for time-to-event predictions, it is not directly available via the links you provided (requires IEEE DataPort access).
