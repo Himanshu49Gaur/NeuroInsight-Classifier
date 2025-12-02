@@ -50,3 +50,14 @@
 - Pixel normalization applied to improve training stability.
 - Dataset split into **80% training** and **20% validation** partitions.
 - Data augmentation (random rotation, flipping, shifting) applied to address class imbalance.
+
+### 🔹 *Step 3 – Model Architecture*
+- Utilizes **ResNet-50 pretrained on ImageNet** to leverage powerful feature extraction.
+- Final fully connected layers redefined for 4-class classification.
+- Core components:
+  - Loss Function: **Cross-Entropy**
+  - Optimizer: **Adam**
+  - Batch Normalization & Dropout to reduce overfitting
+  - CUDA GPU acceleration for improved performance
+
+
