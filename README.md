@@ -1,1 +1,1 @@
-# NeuroInsight-Classifier
+# NeuroInsight Classifier
