@@ -26,3 +26,17 @@
 - To measure performance using scientific evaluation metrics and visual comparison methods.
 
 ---
+
+## 4. **Proposed Solution**
+- A **Convolutional Neural Network (CNN)** architecture based on **ResNet-50 transfer learning** is trained on labeled Alzheimer MRI datasets.
+- The model learns structural brain abnormalities associated with different dementia stages.
+- It predicts MRI classes categorized into:
+  - **Non-Demented**
+  - **Very Mild Demented**
+  - **Mild Demented**
+  - **Moderate Demented**
+- Optimization and GPU acceleration are used to ensure model accuracy and efficiency.
+- The solution provides a complete end-to-end training, testing, evaluation, and visualization pipeline inside a single Jupyter notebook.
+
+---
+
