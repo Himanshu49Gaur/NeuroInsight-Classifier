@@ -60,4 +60,7 @@
   - Batch Normalization & Dropout to reduce overfitting
   - CUDA GPU acceleration for improved performance
 
-
+### 🔹 *Step 4 – Model Training*
+- Runs for multiple epochs with real-time monitoring of training & validation curves.
+- Learning rate scheduling and early stopping strategies used.
+- Uses PyTorch DataLoader pipeline for efficient mini-batch processing.
