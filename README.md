@@ -108,3 +108,10 @@
 
 ---
 
+## **10. Conclusions**
+- The proposed deep learning model successfully identifies Alzheimer disease severity from MRI scans with high predictive performance.
+- Automating diagnosis helps reduce radiologist workload and improves clinical decision accuracy.
+- This project demonstrates strong potential for integration into real-world healthcare systems with proper deployment pipelines.
+
+---
+
