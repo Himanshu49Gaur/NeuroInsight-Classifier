@@ -64,3 +64,10 @@
 - Runs for multiple epochs with real-time monitoring of training & validation curves.
 - Learning rate scheduling and early stopping strategies used.
 - Uses PyTorch DataLoader pipeline for efficient mini-batch processing.
+
+### 🔹 *Step 5 – Evaluation*
+- Performance measured using:
+  - **Accuracy, Loss**
+  - **Confusion Matrix**
+  - **Precision / Recall / F1-score**
+  - Prediction visualization examples
