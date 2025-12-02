@@ -83,4 +83,17 @@
 
   ---
 
-  
+## 6. **Technology Used**
+
+| Category | Tools / Frameworks |
+|----------|---------------------|
+| Programming Language | Python 3.12 |
+| Deep Learning Framework | PyTorch |
+| GPU Acceleration | CUDA |
+| Model Architecture | ResNet-50 (Transfer Learning) |
+| Development Environment | Jupyter Notebook |
+| Libraries | NumPy, Pandas, Matplotlib, Torchvision, Scikit-Learn |
+| Dataset | OASIS Alzheimer MRI Dataset |
+| Visualization Tools | Matplotlib, Seaborn |
+
+---  
