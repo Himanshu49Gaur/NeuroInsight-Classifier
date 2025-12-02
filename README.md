@@ -71,3 +71,7 @@
   - **Confusion Matrix**
   - **Precision / Recall / F1-score**
   - Prediction visualization examples
+
+### 🔹 *Step 6 – Prediction & Testing*
+- Tested on unseen MRI scans to validate generalization strength.
+ 
