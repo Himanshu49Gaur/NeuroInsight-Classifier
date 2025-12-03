@@ -8,3 +8,11 @@ meta_test_X = np.column_stack(base_test_preds)
 y_scores = meta_model.predict_proba(meta_test_X)[:, 1]
 final_preds = (y_scores >= best_thresh).astype(int)
 
+# Plot 1: Confusion Matrix
+plt.figure(figsize=(5, 4))
+sns.heatmap(confusion_matrix(y_test_balanced, final_preds), annot=True, fmt='d', cmap='YlGnBu')
+plt.title("Confusion Matrix")
+plt.xlabel("Predicted")
+plt.ylabel("Actual")
+plt.tight_layout()
+plt.show()
