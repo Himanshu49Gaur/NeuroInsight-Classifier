@@ -11,3 +11,8 @@ print("Dropping unused columns (if present)...")
 df = df.drop(columns=['patient_id', 'timestamp_epoch', 'datetime'], errors='ignore')
 print(f"Remaining columns: {df.columns.tolist()}")
 
+# Separate features and label
+print("Separating features and target...")
+X_raw = df.drop(columns=['SepsisLabel'])
+y = df['SepsisLabel']
+print(f"Features shape: {X_raw.shape}, Target shape: {y.shape}")
