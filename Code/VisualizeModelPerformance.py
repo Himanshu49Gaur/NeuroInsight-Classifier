@@ -16,3 +16,19 @@ plt.xlabel("Predicted")
 plt.ylabel("Actual")
 plt.tight_layout()
 plt.show()
+
+# Plot 2: ROC Curve
+fpr, tpr, _ = roc_curve(y_test_balanced, y_scores)
+roc_auc = roc_auc_score(y_test_balanced, y_scores)
+
+plt.figure(figsize=(6, 4))
+plt.plot(fpr, tpr, label=f"AUC = {roc_auc:.3f}")
+plt.plot([0, 1], [0, 1], linestyle='--', color='gray')
+plt.title("ROC Curve")
+plt.xlabel("False Positive Rate")
+plt.ylabel("True Positive Rate")
+plt.legend()
+plt.grid(True)
+plt.tight_layout()
+plt.show()
+
