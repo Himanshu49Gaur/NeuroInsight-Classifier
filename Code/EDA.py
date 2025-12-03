@@ -14,4 +14,10 @@ plt.grid(True)
 plt.tight_layout()
 plt.show()
 
-
+# ---- 2. Generating correlation heatmap ----
+print("Generating correlation heatmap...")
+plt.figure(figsize=(10, 8))
+sns.heatmap(df.corr(), cmap='coolwarm', annot=False, linewidths=0.5)
+plt.title("Feature Correlation Heatmap")
+plt.tight_layout()
+plt.show()
