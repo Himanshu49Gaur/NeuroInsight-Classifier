@@ -44,3 +44,13 @@ plt.grid(True)
 plt.tight_layout()
 plt.show()
 
+# Plot 4: Predicted Probability Distribution
+plt.figure(figsize=(6, 4))
+sns.histplot(y_scores[y_test_balanced == 0], color='blue', label='Class 0', kde=True)
+sns.histplot(y_scores[y_test_balanced == 1], color='red', label='Class 1', kde=True)
+plt.title("Predicted Probability Distribution")
+plt.xlabel("Predicted Probability")
+plt.ylabel("Density")
+plt.legend()
+plt.tight_layout()
+plt.show()
