@@ -28,3 +28,14 @@ selected_features = ['HR', 'O2Sat', 'Temp', 'MAP', 'SepsisLabel']
 sns.pairplot(df[selected_features], hue='SepsisLabel', plot_kws={'alpha': 0.5})
 plt.suptitle("Pairwise Feature Distributions by Sepsis Status", y=1.02)
 plt.show()
+
+# ---- 4. Violin plots ----
+print("Generating violin plots...")
+for feature in ['HR', 'O2Sat', 'Temp', 'MAP']:
+    plt.figure(figsize=(6, 4))
+    sns.violinplot(x='SepsisLabel', y=feature, data=df)
+    plt.title(f"Violin Plot of {feature} by SepsisLabel")
+    plt.grid(True)
+    plt.tight_layout()
+    plt.show()
+
