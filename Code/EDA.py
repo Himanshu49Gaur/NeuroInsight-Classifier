@@ -21,3 +21,10 @@ sns.heatmap(df.corr(), cmap='coolwarm', annot=False, linewidths=0.5)
 plt.title("Feature Correlation Heatmap")
 plt.tight_layout()
 plt.show()
+
+# ---- 3. Pairwise feature distributions ----
+print("Generating pairwise feature distributions (pairplot)...")
+selected_features = ['HR', 'O2Sat', 'Temp', 'MAP', 'SepsisLabel']
+sns.pairplot(df[selected_features], hue='SepsisLabel', plot_kws={'alpha': 0.5})
+plt.suptitle("Pairwise Feature Distributions by Sepsis Status", y=1.02)
+plt.show()
