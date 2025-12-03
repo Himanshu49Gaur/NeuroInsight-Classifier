@@ -16,3 +16,9 @@ print("Separating features and target...")
 X_raw = df.drop(columns=['SepsisLabel'])
 y = df['SepsisLabel']
 print(f"Features shape: {X_raw.shape}, Target shape: {y.shape}")
+
+# Handle missing values
+print("Imputing missing values with median strategy...")
+imputer = SimpleImputer(strategy='median')
+X_imputed = pd.DataFrame(imputer.fit_transform(X_raw), columns=X_raw.columns)
+print("Missing value imputation complete.")
