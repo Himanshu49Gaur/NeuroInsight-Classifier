@@ -59,4 +59,13 @@ plt.grid(True)
 plt.tight_layout()
 plt.show()
 
+# ---- 7. Scatter plot (HR vs Temp) ----
+print("Generating scatter plot...")
+plt.figure(figsize=(6, 4))
+sns.scatterplot(data=df, x='HR', y='Temp', hue='SepsisLabel', alpha=0.6)
+plt.title("Scatter Plot: HR vs Temp")
+plt.grid(True)
+plt.tight_layout()
+plt.show()
+
 
