@@ -49,4 +49,14 @@ for feature in ['HR', 'O2Sat', 'Temp', 'MAP']:
     plt.tight_layout()
     plt.show()
 
+# ---- 6. Line plot (mean feature trends) ----
+print("Generating line plot of mean trends by label...")
+plt.figure(figsize=(8, 5))
+df.groupby('SepsisLabel')[['HR', 'O2Sat', 'Temp', 'MAP']].mean().T.plot(marker='o')
+plt.title("Mean Feature Trends by Sepsis Label")
+plt.ylabel("Mean Value")
+plt.grid(True)
+plt.tight_layout()
+plt.show()
+
 
