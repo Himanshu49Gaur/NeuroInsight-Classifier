@@ -68,4 +68,13 @@ plt.grid(True)
 plt.tight_layout()
 plt.show()
 
-
+# ---- 8. Histogram of key features ----
+print("Generating histograms...")
+features = ['HR', 'O2Sat', 'Temp', 'MAP']
+for feature in features:
+    plt.figure(figsize=(6, 4))
+    sns.histplot(data=df, x=feature, hue='SepsisLabel', kde=True, bins=30, element="step")
+    plt.title(f"Histogram of {feature}")
+    plt.grid(True)
+    plt.tight_layout()
+    plt.show()
