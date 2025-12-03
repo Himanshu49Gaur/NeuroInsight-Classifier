@@ -22,3 +22,11 @@ print("Imputing missing values with median strategy...")
 imputer = SimpleImputer(strategy='median')
 X_imputed = pd.DataFrame(imputer.fit_transform(X_raw), columns=X_raw.columns)
 print("Missing value imputation complete.")
+
+# Scale features
+print("Scaling features using StandardScaler...")
+scaler = StandardScaler()
+X_scaled = pd.DataFrame(scaler.fit_transform(X_imputed), columns=X_imputed.columns)
+print("Feature scaling complete.")
+
+print(" Data preprocessing completed successfully!")
