@@ -39,3 +39,14 @@ for feature in ['HR', 'O2Sat', 'Temp', 'MAP']:
     plt.tight_layout()
     plt.show()
 
+# ---- 5. Box plots ----
+print("Generating box plots...")
+for feature in ['HR', 'O2Sat', 'Temp', 'MAP']:
+    plt.figure(figsize=(6, 4))
+    sns.boxplot(x='SepsisLabel', y=feature, data=df)
+    plt.title(f"Box Plot of {feature} by SepsisLabel")
+    plt.grid(True)
+    plt.tight_layout()
+    plt.show()
+
+
