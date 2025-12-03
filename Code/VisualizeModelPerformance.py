@@ -32,3 +32,15 @@ plt.grid(True)
 plt.tight_layout()
 plt.show()
 
+# Plot 3: Precision-Recall Curve
+precision, recall, _ = precision_recall_curve(y_test_balanced, y_scores)
+
+plt.figure(figsize=(6, 4))
+plt.plot(recall, precision, marker='.')
+plt.title("Precision-Recall Curve")
+plt.xlabel("Recall")
+plt.ylabel("Precision")
+plt.grid(True)
+plt.tight_layout()
+plt.show()
+
