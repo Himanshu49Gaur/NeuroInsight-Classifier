@@ -1,2 +1,4 @@
 # Project Report
 
+### This project develops an advanced machine learning pipeline to predict the onset of sepsis, a critical medical condition, using structured clinical time-series data. The solution integrates data preprocessing, intelligent feature selection, balanced sampling, ensemble modeling, and interpretability techniques to deliver a high-performing and trustworthy predictive system suitable for healthcare environments.
+
