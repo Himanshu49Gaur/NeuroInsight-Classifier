@@ -9,3 +9,4 @@ shap>=0.45.0
 lime>=0.2.0.1
 joblib>=1.3.0
 
+pip install xgboost --extra-index-url https://pypi.nvidia.com
