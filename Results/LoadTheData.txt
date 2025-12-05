@@ -1,1 +1,30 @@
+Loading dataset...
+First 5 rows of the dataset:
+   Unnamed: 0  Hour    HR  O2Sat  Temp    SBP   MAP   DBP  Resp  EtCO2  ...  \
+0           0     0   NaN    NaN   NaN    NaN   NaN   NaN   NaN    NaN  ...   
+1           1     1  65.0  100.0   NaN    NaN  72.0   NaN  16.5    NaN  ...   
+2           2     2  78.0  100.0   NaN    NaN  42.5   NaN   NaN    NaN  ...   
+3           3     3  73.0  100.0   NaN    NaN   NaN   NaN  17.0    NaN  ...   
+4           4     4  70.0  100.0   NaN  129.0  74.0  69.0  14.0    NaN  ...   
 
+   Fibrinogen  Platelets    Age  Gender  Unit1  Unit2  HospAdmTime  ICULOS  \
+0         NaN        NaN  68.54       0    NaN    NaN        -0.02       1   
+1         NaN        NaN  68.54       0    NaN    NaN        -0.02       2   
+2         NaN        NaN  68.54       0    NaN    NaN        -0.02       3   
+3         NaN        NaN  68.54       0    NaN    NaN        -0.02       4   
+4         NaN      330.0  68.54       0    NaN    NaN        -0.02       5   
+
+   SepsisLabel  Patient_ID  
+0            0       17072  
+1            0       17072  
+2            0       17072  
+3            0       17072  
+4            0       17072  
+
+[5 rows x 44 columns]
+/usr/local/lib/python3.11/dist-packages/pandas/io/formats/format.py:1458: RuntimeWarning: invalid value encountered in greater
+  has_large_values = (abs_vals > 1e6).any()
+/usr/local/lib/python3.11/dist-packages/pandas/io/formats/format.py:1459: RuntimeWarning: invalid value encountered in less
+  has_small_values = ((abs_vals < 10 ** (-self.digits)) & (abs_vals > 0)).any()
+/usr/local/lib/python3.11/dist-packages/pandas/io/formats/format.py:1459: RuntimeWarning: invalid value encountered in greater
+  has_small_values = ((abs_vals < 10 ** (-self.digits)) & (abs_vals > 0)).any()
