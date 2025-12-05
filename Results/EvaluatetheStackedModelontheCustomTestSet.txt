@@ -1,1 +1,15 @@
+Evaluating final model on custom balanced test set...
 
+Optimal Threshold for F1: 0.521
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.98      0.98      0.98      5584
+           1       0.98      0.98      0.98      5583
+
+    accuracy                           0.98     11167
+   macro avg       0.98      0.98      0.98     11167
+weighted avg       0.98      0.98      0.98     11167
+
+ROC AUC Score: 0.9983226075935594
