@@ -1,1 +1,3 @@
-
+Splitting data into train and test sets...
+Train set shape: (1241768, 20)
+Test set shape: (310442, 20)
