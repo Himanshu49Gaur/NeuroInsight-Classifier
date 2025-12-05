@@ -1,1 +1,12 @@
-
+Displaying sample predictions (actual vs predicted time)...
+   SepsisLabel  Predicted_Sepsis_Time  Simulated_Observed_Duration
+0            0                 227.73                           81
+1            0                 243.97                           44
+2            0                 217.40                           90
+3            0                 236.89                           50
+4            0                 251.03                           53
+5            0                 261.99                           32
+6            0                 247.82                           51
+7            0                 275.77                           82
+8            0                 248.71                           31
+9            0                 254.49                           59
