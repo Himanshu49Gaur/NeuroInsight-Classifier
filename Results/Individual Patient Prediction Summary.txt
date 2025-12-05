@@ -1,1 +1,5 @@
-
+Patient 7 Prediction Summary
+----------------------------------------
+Actual Sepsis Event:        No
+Predicted Time to Sepsis:   275.77 hours/days
+Observed Monitoring Time:   82.0 hours/days
