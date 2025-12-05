@@ -1,1 +1,20 @@
+Explaining a prediction with LIME...
+
+Prediction probabilities
+0.02
+No Sepsis
+0.98
+Sepsis
+No Sepsis
+Sepsis
+random_forest > 0.75
+0.64
+0.31 < gbc <= 0.44
+0.04
+0.35 < log_reg <= 0.47
+0.03
+Feature	Value
+random_forest	0.81
+gbc	0.35
+log_reg	0.40
 
