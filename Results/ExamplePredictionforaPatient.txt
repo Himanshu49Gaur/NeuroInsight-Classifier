@@ -1,1 +1,3 @@
-
+Patient 3:
+  Sepsis event occurred? No
+  Predicted time to sepsis (or observation end): 236.89 hours/days
