@@ -1,1 +1,7 @@
-
+Dropping unnecessary columns and defining features and target...
+Shape of feature matrix: (1552210, 43)
+Target distribution:
+SepsisLabel
+0    1524294
+1      27916
+Name: count, dtype: int64
