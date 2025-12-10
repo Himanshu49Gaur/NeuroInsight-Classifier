@@ -1,6 +1,5 @@
 # NeuroInsight Classifier
 
----
 
 ## 1. **Introduction**
 - Alzheimer’s Disease (AD) is a progressive neurodegenerative disorder and a leading cause of dementia globally, gradually affecting memory, cognitive thinking, and behavioral abilities.
