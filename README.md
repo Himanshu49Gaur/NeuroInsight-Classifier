@@ -130,7 +130,7 @@
 ---
 
 ## **12. About the Author**
-** Himanshu Gaur**  
+Himanshu Gaur  
 Cybersecurity Enthusiast & Deep Learning Researcher  
 B.Tech – VIT Bhopal *(Graduating 2027)*  
 Top 1% TryHackMe Global Rank | Experience with AI-based research applications  
