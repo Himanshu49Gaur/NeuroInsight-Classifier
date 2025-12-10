@@ -41,17 +41,17 @@
 ---
 
 ## 5. **Methodology**
-### 🔹 *Step 1 – Dataset Acquisition*
+### *Step 1 – Dataset Acquisition*
 - Alzheimer MRI dataset obtained from **OASIS / Kaggle Brain MRI public dataset**.
 - Contains labeled MRI scans categorized by dementia severity for supervised training.
 
-### 🔹 *Step 2 – Data Preprocessing*
+###  *Step 2 – Data Preprocessing*
 - MRI images resized to **224×224 pixels** for CNN compatibility.
 - Pixel normalization applied to improve training stability.
 - Dataset split into **80% training** and **20% validation** partitions.
 - Data augmentation (random rotation, flipping, shifting) applied to address class imbalance.
 
-### 🔹 *Step 3 – Model Architecture*
+###  *Step 3 – Model Architecture*
 - Utilizes **ResNet-50 pretrained on ImageNet** to leverage powerful feature extraction.
 - Final fully connected layers redefined for 4-class classification.
 - Core components:
@@ -60,22 +60,22 @@
   - Batch Normalization & Dropout to reduce overfitting
   - CUDA GPU acceleration for improved performance
 
-### 🔹 *Step 4 – Model Training*
+###  *Step 4 – Model Training*
 - Runs for multiple epochs with real-time monitoring of training & validation curves.
 - Learning rate scheduling and early stopping strategies used.
 - Uses PyTorch DataLoader pipeline for efficient mini-batch processing.
 
-### 🔹 *Step 5 – Evaluation*
+###  *Step 5 – Evaluation*
 - Performance measured using:
   - **Accuracy, Loss**
   - **Confusion Matrix**
   - **Precision / Recall / F1-score**
   - Prediction visualization examples
 
-### 🔹 *Step 6 – Prediction & Testing*
+###  *Step 6 – Prediction & Testing*
 - Tested on unseen MRI scans to validate generalization strength.
  
-### ✔ What This Methodology Enables
+### What This Methodology Enables
 - Faster and more reliable Alzheimer screening.
 - Reduced manual workload for radiologists.
 - Objective, repeatable, and scalable medical imaging evaluation.
@@ -130,10 +130,10 @@
 ---
 
 ## **12. About the Author**
-**👤 Himanshu Gaur**  
+** Himanshu Gaur**  
 Cybersecurity Enthusiast & Deep Learning Researcher  
 B.Tech – VIT Bhopal *(Graduating 2027)*  
 Top 1% TryHackMe Global Rank | Experience with AI-based research applications  
 
-📌 **GitHub:** [https://github.com/Himanshu49Gaur](https://github.com/Himanshu49Gaur)  
-🔗 **LinkedIn:** [https://linkedin.com/in/himanshu-gaur-305006282](https://linkedin.com/in/himanshu-gaur-305006282)
+ **GitHub:** [https://github.com/Himanshu49Gaur](https://github.com/Himanshu49Gaur)  
+ **LinkedIn:** [https://linkedin.com/in/himanshu-gaur-305006282](https://linkedin.com/in/himanshu-gaur-305006282)
